@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "private": true,
   "author": "Alexey Yaroshevich <zxqfox@gmail.com>",
@@ -13,16 +13,23 @@
     "body-parser": "^1.14.1",
     "compression": "^1.6.0",
     "connect-timeout": "^1.7.0",
+    "debug": "^2.2.0",
     "express": "^4.13.3",
     "morgan": "^1.6.1",
     "node-uuid": "^1.4.4",
     "response-time": "^2.3.1",
     "serve-favicon": "^2.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "chai-http": "^1.0.0",
+    "debug": "^2.2.0",
+    "mocha": "^2.3.4"
+  },
   "repository": {
     "type": "git",
-    "url": "var favicon = require('serve-favicon');"
+    "url": "git@git.theprotein.io:protein/phantomas.git"
   },
   "keywords": [
     "phantomjs",
