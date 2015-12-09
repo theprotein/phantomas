@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
+    "start": "node .",
     "test": "mocha"
   },
   "private": true,
