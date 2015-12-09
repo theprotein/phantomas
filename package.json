@@ -25,7 +25,12 @@
     "chai": "^3.4.1",
     "chai-as-promised": "^5.1.0",
     "chai-http": "^1.0.0",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "shipit": "^0.7.4",
+    "shipit-cli": "^1.4.0",
+    "shipit-deploy": "^2.0.0",
+    "shipit-npm": "^0.2.0",
+    "shipit-shared": "^4.1.7"
   },
   "repository": {
     "type": "git",
