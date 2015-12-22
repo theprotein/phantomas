@@ -52,6 +52,18 @@ describe('Phantomas', function() {
       .should.become('ok');
   });
 
+  it('should not stuck on comments', function () {
+    return computeText({
+      script: function() {
+        // comment
+        function isReady() { return true; }
+        function run() { return document.body.innerHTML; }
+      },
+      body: 'ok'
+    })
+      .should.become('ok');
+  });
+
   it('should run passed script after 500ms', function () {
     return computeText({
       script: function() {
